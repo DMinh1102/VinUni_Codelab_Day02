@@ -1,0 +1,85 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3604 >>
+stream
+1 1 1 rg 0 0 842 595 re f
+0.08 0.2 0.25 rg BT /F2 19 Tf 36 550 Td (Xanh SM Charging Co-pilot | Current-State Workflow) Tj ET
+0.12 0.16 0.19 rg BT /F1 10 Tf 36 529 Td (Discovery hypothesis only: timing and tool sequence must be validated with dispatchers.) Tj ET
+0.08 0.39 0.4 rg BT /F2 9 Tf 36 500 Td (HANDOFFS: driver -> dispatcher | dispatcher across vehicle/station tools) Tj ET
+0.08 0.39 0.4 rg BT /F2 9 Tf 36 486 Td (Dispatcher -> driver) Tj ET
+1.2 w 0.31 0.43 0.47 RG 0.94 0.97 0.97 rg 36 309 142 166 re B
+0.31 0.43 0.47 rg BT /F2 10 Tf 45 449 Td (1  Receive report) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 45 421 Td (Driver reports low) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 45 403 Td (battery concern) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 45 385 Td (Owner: dispatcher) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 45 367 Td (Estimate: 2 min) Tj ET
+1.2 w 0.31 0.43 0.47 RG 0.94 0.97 0.97 rg 193 309 142 166 re B
+0.31 0.43 0.47 rg BT /F2 10 Tf 202 449 Td (2  Check vehicle) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 202 421 Td (Review battery,) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 202 403 Td (location, trip need) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 202 385 Td (Owner: dispatcher) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 202 367 Td (Estimate: 3 min) Tj ET
+2 w 0.76 0.2 0.17 RG 1.0 0.95 0.94 rg 350 309 142 166 re B
+0.76 0.2 0.17 rg BT /F2 10 Tf 359 449 Td (3  Check station) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 359 421 Td (Verify compatibility,) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 359 403 Td (status, queue, distance) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 359 385 Td (Owner: dispatcher) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 359 367 Td (Estimate: 5 min) Tj ET
+0.76 0.2 0.17 rg BT /F2 9 Tf 359 330 Td (BOTTLENECK) Tj ET
+1.2 w 0.31 0.43 0.47 RG 0.94 0.97 0.97 rg 507 309 142 166 re B
+0.31 0.43 0.47 rg BT /F2 10 Tf 516 449 Td (4  Draft guidance) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 516 421 Td (Prepare and confirm) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 516 403 Td (next-step message) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 516 385 Td (Owner: dispatcher) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 516 367 Td (Estimate: 3 min) Tj ET
+1.2 w 0.31 0.43 0.47 RG 0.94 0.97 0.97 rg 664 309 142 166 re B
+0.31 0.43 0.47 rg BT /F2 10 Tf 673 449 Td (5  Record / escalate) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 673 421 Td (Log outcome; contact) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 673 403 Td (support if needed) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 673 385 Td (Owner: dispatcher) Tj ET
+0.12 0.16 0.19 rg BT /F1 8.5 Tf 673 367 Td (Estimate: 2 min) Tj ET
+1.5 w 0.25 0.32 0.36 RG 178 389 m 190 389 l S
+0.25 0.32 0.36 rg 190 389 m 184 393 l 184 385 l h f
+1.5 w 0.25 0.32 0.36 RG 335 389 m 347 389 l S
+0.25 0.32 0.36 rg 347 389 m 341 393 l 341 385 l h f
+1.5 w 0.25 0.32 0.36 RG 492 389 m 504 389 l S
+0.25 0.32 0.36 rg 504 389 m 498 393 l 498 385 l h f
+1.5 w 0.25 0.32 0.36 RG 649 389 m 661 389 l S
+0.25 0.32 0.36 rg 661 389 m 655 393 l 655 385 l h f
+0.8 w 0.75 0.79 0.8 RG 36 270 m 806 270 l S
+0.08 0.2 0.25 rg BT /F2 12 Tf 36 244 Td (Estimated active handling time: 15 minutes per case \(assumption; instrument a real baseline\).) Tj ET
+0.12 0.16 0.19 rg BT /F1 10 Tf 36 219 Td (Potential failure points: stale station status, incompatible connector, incomplete driver location, or trip urgency omitted.) Tj ET
+0.12 0.16 0.19 rg BT /F1 10 Tf 36 197 Td (Current-state fallback: dispatcher verifies information manually and escalates to charging support when needed.) Tj ET
+0.37 0.41 0.43 rg BT /F1 9 Tf 36 64 Td (Prepared for Lab 02 | Not a verified description of internal Xanh SM systems or measured service times.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000003912 00000 n 
+0000003982 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4057
+%%EOF
