@@ -1,14 +1,29 @@
+# 🔍 Deliverable Phase 1 & 2 — Problem Scan & Quick Cards
+
+> **Đơn vị:** Vin Smart Future (Vingroup)  
+> **Người thực hiện:** Phạm Quốc Huy (Member — Healthcare & Smart Living Stream)  
+> **Phân hệ trọng tâm:** **Hệ thống Y tế Vinmec** & **Đô thị thông minh Vinhomes**  
+> **Deliverable:** Gate I1 — Scan & Cards (15 điểm cá nhân)
+
+---
+
+## 🏛️ Bối cảnh & Vai trò
+
+Tôi là kỹ sư AI Product tại **Vin Smart Future**, đơn vị công nghệ của Tập đoàn Vingroup. Nhóm chúng tôi được phân công khảo sát vận hành thực tế tại **Bệnh viện Đa khoa Quốc tế Vinmec** và Ban Quản lý Đô thị **Vinhomes** nhằm phát hiện các điểm nghẽn (bottlenecks) hành chính, từ đó thiết kế giải pháp AI (LLM / RAG) giúp giảm tải gánh nặng thủ tục giấy tờ cho đội ngũ y bác sĩ, nâng cao an toàn điều trị và trải nghiệm của người bệnh.
+
+---
+
 # 🔍 Phase 1 — SCAN: Tìm kiếm cơ hội (Cá nhân)
 
-Dùng **4 Lenses** quét qua vận hành của các công ty thành viên Vingroup.
+Dùng **4 Lenses** (Lặp lại, Tốn thời gian, AI-upgrade, Stakeholder Pain) quét qua vận hành của các công ty thành viên Vingroup:
 
-| # | Subsidiary | Lens | Mô tả ngắn bài toán |
-|---|------------|------|---------------------|
-| 1 | **Vinmec** | Tốn thời gian | Bác sĩ phải tổng hợp thông tin từ bệnh án điện tử, kết quả xét nghiệm, chẩn đoán và đơn thuốc để viết hồ sơ tóm tắt xuất viện. Việc nhập liệu và kiểm tra thông tin thủ công làm tăng thời gian hoàn thiện hồ sơ. |
-| 2 | **Vinmec** | Lặp lại | Nhân viên bảo hiểm phải kiểm tra quyền lợi, đối chiếu thông tin bệnh nhân, mã dịch vụ, chỉ định và hồ sơ y tế để hoàn thiện yêu cầu bảo lãnh viện phí hoặc thanh toán bảo hiểm. |
-| 3 | **Vinmec** | Pain từ người khác | Nhân viên tiếp nhận phải đọc và phân loại nhu cầu khám bệnh từ cuộc gọi hoặc tin nhắn của bệnh nhân để chuyển đến đúng chuyên khoa, gây chậm trễ khi lượng yêu cầu lớn và thông tin triệu chứng không rõ ràng. |
-| 4 | **Vinhomes** | Lặp lại | Ban quản lý phải tiếp nhận, đọc, phân loại và xác định mức độ ưu tiên các phản ánh của cư dân như mất nước, hỏng thang máy, rò rỉ điện, vệ sinh, tiếng ồn trước khi chuyển đến bộ phận phụ trách. |
-| 5 | **Vinhomes** | Tốn thời gian | Nhân viên ban quản lý phải kiểm tra thủ công hồ sơ đăng ký thi công nội thất, thông tin nhà thầu, giấy tờ và danh mục yêu cầu an toàn trước khi phê duyệt hoặc yêu cầu cư dân bổ sung. |
+| # | Subsidiary | Lens | Tên bài toán / Bottleneck | Mô tả ngắn bài toán |
+|---|------------|------|---------------------------|---------------------|
+| 1 | **Vinmec** | Tốn thời gian | Tóm tắt hồ sơ bệnh án xuất viện (Discharge Summary) | Bác sĩ phải tổng hợp thông tin từ bệnh án điện tử (EMR), kết quả xét nghiệm, chẩn đoán và đơn thuốc để viết hồ sơ tóm tắt xuất viện. Việc tra cứu và nhập liệu thủ công chiếm 16/20 phút/ca, gây quá tải giờ làm việc của bác sĩ. |
+| 2 | **Vinmec** | Lặp lại | Đối chiếu hồ sơ bảo lãnh viện phí & bảo hiểm | Nhân viên bảo hiểm phải kiểm tra quyền lợi, đối chiếu thông tin bệnh nhân, mã dịch vụ, chỉ định và hồ sơ y tế để hoàn thiện yêu cầu bảo lãnh viện phí hoặc thanh toán bảo hiểm (mất 20 phút/hồ sơ). |
+| 3 | **Vinmec** | Pain từ người khác | Phân luồng & gợi ý chuyên khoa khám ban đầu | Nhân viên tiếp nhận phải đọc và phân loại nhu cầu khám bệnh từ cuộc gọi hoặc tin nhắn của bệnh nhân để chuyển đến đúng chuyên khoa, gây chậm trễ khi lượng yêu cầu lớn và triệu chứng mơ hồ. |
+| 4 | **Vinhomes** | Lặp lại | Phân loại & điều phối phản ánh cư dân trên Resident App | Ban quản lý phải tiếp nhận, đọc, phân loại và xác định mức độ ưu tiên các phản ánh của cư dân (mất nước, hỏng thang máy, rò rỉ điện, vệ sinh) trước khi chuyển đến đội kỹ thuật phụ trách. |
+| 5 | **Vinhomes** | Tốn thời gian | Thẩm định hồ sơ đăng ký thi công nội thất căn hộ | Nhân viên ban quản lý phải kiểm tra thủ công hồ sơ đăng ký thi công nội thất, thông tin nhà thầu, giấy tờ và danh mục yêu cầu an toàn PCCC trước khi phê duyệt hoặc yêu cầu bổ sung (mất 3–5 ngày). |
 
 ---
 
@@ -38,7 +53,7 @@ Chọn top 3 từ danh sách SCAN: **#1 (Vinmec – AI Tóm tắt hồ sơ xuấ
 │   → 4. Tự viết nội dung tóm tắt xuất viện                   │
 │   → 5. Kiểm tra, chỉnh sửa và hoàn thiện hồ sơ              │
 │                                                             │
-│ Bước nào tốn nhất? Bước 2-4 (⏱ 20 phút/hồ sơ)              │
+│ Bước nào tốn nhất? Bước 2-4 (⏱ 16/20 phút/hồ sơ)            │
 │                                                             │
 │ AI có thể nhảy vào hỗ trợ ở bước nào? Bước 2-4              │
 │ (Truy xuất thông tin bệnh án -> Tóm tắt diễn biến điều trị  │
@@ -130,4 +145,24 @@ Chọn top 3 từ danh sách SCAN: **#1 (Vinmec – AI Tóm tắt hồ sơ xuấ
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Thẻ bài toán tiêu biểu: Card #1 — Vinmec – AI Tóm tắt hồ sơ xuất viện
+---
+
+# 🗳️ Quyết định lựa chọn bài toán Deep-Dive (Nhóm)
+
+Nhóm thống nhất lựa chọn **Quick Problem Card #1: Vinmec – AI Hỗ trợ Soạn thảo & Tóm tắt Hồ sơ Bệnh án Xuất viện (Discharge Summary Co-Pilot)** để tiến hành phân tích sâu.
+
+### 📌 Lý do lựa chọn và loại trừ:
+1. **Vì sao chọn Card #1 (Vinmec Discharge Summary):**
+   * **Giá trị kinh tế & vận hành cực lớn:** Bác sĩ là tài nguyên nhân lực quý giá và đắt đỏ nhất của Vinmec. Giảm từ 20 phút xuống dưới 5 phút/hồ sơ giúp giải phóng hơn **116 giờ công của bác sĩ mỗi ngày** trên toàn hệ thống 7 bệnh viện Vinmec, cho phép bác sĩ dành nhiều thời gian hơn cho việc thăm khám và điều trị bệnh nhân.
+   * **Độ chín muồi công nghệ (AI-Fit hoàn hảo):** Bài toán RAG + LLM Feature tổng hợp văn bản y tế từ bệnh án điện tử (EMR) có cấu trúc cố định, không đòi hỏi huấn luyện lại mô hình nền mà chỉ cần trích xuất chính xác theo mẫu chuẩn của Bộ Y Tế và Vinmec.
+   * **Kiểm soát rủi ro y tế chặt chẽ (HITL 100%):** Ranh giới an toàn được thiết lập nghiêm ngặt: AI tuyệt đối không tự chẩn đoán, không tự sửa đơn thuốc, và chỉ tạo bản nháp (draft); bác sĩ điều trị bắt buộc phải kiểm tra và ký số duyệt mới được lưu vào EMR.
+2. **Vì sao tạm gác Card #2 và Card #5:**
+   * *Card #2 (Đối chiếu bảo hiểm Vinmec):* Quy trình phụ thuộc vào cổng API và danh mục mã thanh toán của hàng chục công ty bảo hiểm tư nhân bên ngoài (Bảo Việt, Prudential, PVI...), mức độ phụ thuộc bên thứ ba rất cao, khó kiểm soát trong khuôn khổ triển khai ban đầu.
+   * *Card #5 (Phân loại phản ánh Vinhomes):* Mức độ cấp bách và tổn thất chi phí thấp hơn nhiều so với việc giảm tải thời gian cho bác sĩ tại bệnh viện.
+
+---
+
+## 📌 Các bước tiếp theo (Next Deliverables):
+* 🏗️ **Phase 3 (Deep-Dive), Phase 4 (Prompt Prototype) & Phase 5 (Evaluate):** Toàn bộ phân tích sâu chi tiết và báo cáo kỹ thuật được trình bày tại file **[02-deep-dive-report.md](02-deep-dive-report.md)**.
+* 📊 **Sơ đồ Quy trình Vận hành (Workflow Mapping Diagram):** Xem sơ đồ trực quan tại file **[04-workflow-diagram.png](04-workflow-diagram.png)**.
+* 📝 **Phase 6 — AI Log & Reflection:** Toàn bộ nhật ký cá nhân về quá trình sử dụng AI làm Thought-Partner được ghi lại chi tiết tại file **[03-ai-log.md](03-ai-log.md)**.
